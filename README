@@ -1,0 +1,11 @@
+This program was written by Dan Rabinowitz, and can be treated as an open source program.
+
+This program was was created to implement a matrix multiplication using a new process for each step of the dot product multiplication. This is made possible by using shared memory in the heap. This program does not come with a Makefile but can be compiled on its own using g++. The text file containing the two matrices should follow this format:
+
+4 5 6
+1 2 3
+******
+1 2
+3 4
+5 6
+
